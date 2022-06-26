@@ -16,6 +16,18 @@ public class MainArray {
             System.out.println(intArray[i]);
         }
 
+        String[] names = new String[10];
+        names[0] = "john wick";
+        names[1] = "scooby doo";
+        names[2] = "palmeiras";
+        names[3] = "shaggy";
+
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+
     }
+
 
 }
