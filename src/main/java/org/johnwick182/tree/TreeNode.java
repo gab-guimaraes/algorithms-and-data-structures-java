@@ -1,5 +1,10 @@
 package org.johnwick182.tree;
 
+
+/*
+treemap
+treeset
+ */
 public class TreeNode {
     private int data;
     private TreeNode leftChild;
@@ -23,6 +28,18 @@ public class TreeNode {
                 rightChild.insert(value);
             }
         }
+    }
+
+    public void traverseInOrder() {
+        if (leftChild != null) {
+            leftChild.traverseInOrder();
+        }
+        System.out.println(data + ", ");
+
+        if (rightChild != null) {
+            rightChild.traverseInOrder();
+        }
+
     }
 
     public int getData() {

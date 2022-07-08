@@ -9,5 +9,7 @@ public class MainTree {
         intTree.insert(27);
         intTree.insert(30);
         intTree.insert(29);
+
+        intTree.traverseInOrder();
     }
 }
