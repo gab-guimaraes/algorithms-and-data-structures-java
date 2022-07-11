@@ -2,7 +2,7 @@ package org.johnwick182.graphs;
 
 import java.util.LinkedList;
 
-public class MainGraphs {
+public class GraphsOOBreathSearch {
     public static void main(String[] args) {
         Graph g = createGraph();
         Node ori = g.getListNodes().get(1);
