@@ -1,4 +1,4 @@
-package org.johnwick182.stacks;
+package org.johnwick182.stacksAndQueue;
 
 import java.util.Stack;
 
