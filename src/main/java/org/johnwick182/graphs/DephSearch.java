@@ -13,15 +13,9 @@ public class DephSearch {
                 Arrays.asList(0,1), //2 go to 0 and 1
                 List.of(1) //3 go to 1
         );
-
-
         final int N = 4; // size of the graph
-
-
         boolean[] visited = new boolean[N]; //cria um vetor boolean para armazenar qual percorreu
-
         bfs(graph, visited);
-
 
         //percorre todo o grafo de i ate n
         for (int i = 0; i < N; i++) {
