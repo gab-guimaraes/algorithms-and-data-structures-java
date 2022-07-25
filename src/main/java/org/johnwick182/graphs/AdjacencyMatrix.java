@@ -25,10 +25,6 @@ public class AdjacencyMatrix {
     public static void dfs(int start, boolean[] visited) {
         System.out.println("start... ");
         visited[start] = true;
-        //visited[0] = true;
-        //visited[1] = false;
-        //I'll have an array with n size.
-        //each element is the vertex.
 
         for (int i = 0; i < graph[start].length; i++) {
             if (graph[start][i] == 1 && (!visited[i])) {

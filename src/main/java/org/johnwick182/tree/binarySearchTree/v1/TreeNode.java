@@ -1,4 +1,4 @@
-package org.johnwick182.tree.binarySearchTree;
+package org.johnwick182.tree.binarySearchTree.v1;
 
 public class TreeNode {
     private int data;
