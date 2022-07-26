@@ -1,9 +1,9 @@
-package org.johnwick182.graphs;
+package org.johnwick182.graphs.represent;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class MatrixAdx {
+public class AdjacencyMatrix {
 
     public static void main(String[] args) {
         checkCircle();
@@ -20,8 +20,6 @@ public class MatrixAdx {
         };
 
         int[][] myGraph2 = { {1, 0} };
-
-        //bfs(myGraph, new boolean[myGraph.length]);
         dfs(myGraph2, 0, new boolean[myGraph2.length]);
     }
 
