@@ -8,7 +8,16 @@ public class MatrixReview {
                 {90, 90, 40}
         };
 
-        review(matrix);
+        //review(matrix);
+        veriallyMatrix(matrix);
+    }
+
+    public static void veriallyMatrix(int[][] matrix) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < matrix.length; j++) {
+                System.out.println(matrix[j][i]);
+            }
+        }
     }
 
     public static void review(int[][] matrix) {
