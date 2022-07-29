@@ -33,11 +33,6 @@ public class TreeNode {
             return right.max();
     }
 
-    public void delete(TreeNode treeNode) {
-        TreeNode treeNode1 = get(treeNode.data);
-        if (treeNode1.left == null && treeNode1.right == null)
-
-    }
 
     public TreeNode get(int value) {
         if (value == data)

@@ -25,18 +25,5 @@ public class Tree {
         return root.max();
     }
 
-    public void delete(int value) {
-        root = delete(root, value);
-    }
-
-    private TreeNode delete(TreeNode subTreeRoot, int value) {
-        if (subTreeRoot == null) {
-            return null;
-        }
-
-      // todo: continue
-
-    }
-
 
 }
